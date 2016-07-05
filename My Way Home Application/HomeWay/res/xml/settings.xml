@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enabled="true"
+    android:orderingFromXml="true"
+    android:selectable="true"
+    android:shouldDisableView="false" >
+
+    <PreferenceCategory android:title="@string/action_settings" >
+        
+        <ListPreference
+            android:entries="@array/engines"
+            android:entryValues="@array/enginevalues"
+            android:key="enginekey"
+            android:summary="@string/selectmapengine"
+            android:title="@string/mapengine" android:defaultValue="0"/>
+        
+          
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/myhomelocation" >
+        <EditTextPreference
+            android:dialogTitle="@string/latitude"
+            android:key="latitude"
+            android:summary="@string/latitude"
+            android:title="@string/latitude" />
+        <EditTextPreference
+            android:dialogTitle="@string/longitude"
+            android:key="longitude"
+            android:summary="@string/longitude"
+            android:title="@string/longitude" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

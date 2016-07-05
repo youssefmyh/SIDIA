@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Way Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="gpsdisabled">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="enable">Enable</string>
+    <string name="skip">Skip</string>
+    <string name="mylocation">My Location</string>
+    <string name="myHome">My Home</string>
+       <string name="myHomelip">My Home LIP</string>
+    <string name="enabletocratemap">Sorry! unable to create maps</string>
+    <string name="googleengine">Google Engine</string>
+    <string name="selectmapengine">select map engine</string>
+    <string name="mapengine">Map Engines</string>
+    <string name="myhomelocation">My Home Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="savelocation">Save Location</string>
+    <string name="homelocationisnull">Your Home Location is not mentioned you can set it by Long Press on Map View or edit latitude and longitude field under Setting </string>
+    <string name="noavailaberaod">There is No Available Roads</string>
+        <string name="enginenotsupported">Selected Map Engine Not Supported please choose another one</string>
+    
+    <string-array name="engines">
+        <item>Google Engine</item>
+        <item>Baidu Engine</item>
+    </string-array>
+    <string-array name="enginevalues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="title_activity_road">RoadActivity</string>
+
+</resources>
